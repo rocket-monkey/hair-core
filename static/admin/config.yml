@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: rocket-monkey/jur-gatsby
+  repo: rocket-monkey/hair-core
 
 media_folder: static/img
 public_folder: /img
