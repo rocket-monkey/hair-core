@@ -107,9 +107,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            timeTable {
-              time
-            }
           }
         }
       }
