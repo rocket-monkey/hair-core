@@ -100,13 +100,6 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             dateShort: date(formatString: "DD.MM.YY")
             dateJs: date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1024) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
           }
         }
       }

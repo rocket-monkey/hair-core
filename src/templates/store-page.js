@@ -87,13 +87,6 @@ export const storePageQuery = graphql`
       frontmatter {
         title
         fbLink
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
       }
     }
   }

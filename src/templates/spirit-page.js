@@ -63,19 +63,22 @@ SpiritPage.propTypes = {
 
 export default SpiritPage
 
-export const spiritPageQuery = graphql`
-  query SpiritPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-        image {
+/*
+image {
           childImageSharp {
             fluid(maxWidth: 2048) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
+         */
+
+export const spiritPageQuery = graphql`
+  query SpiritPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
       }
     }
   }
