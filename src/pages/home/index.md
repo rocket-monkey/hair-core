@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
-title: JUR Records
+title: Haircore
 ---
-Welcome to JUR Records, dem Schweizer Drum and Bass Label seit 1991.
+Welcome to Haircore
 
 ![](/img/fbp7fbb.jpg)
