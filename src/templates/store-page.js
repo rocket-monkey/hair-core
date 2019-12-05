@@ -66,7 +66,7 @@ const StorePage = ({ data }) => {
   return (
     <StorePageTemplate
       contentComponent={HTMLContent}
-      hero={post.frontmatter.image.childImageSharp}
+      hero={post.frontmatter.image && post.frontmatter.image.childImageSharp}
       title={post.frontmatter.title}
       fbLink={post.frontmatter.fbLink}
       content={post.html}

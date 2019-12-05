@@ -54,6 +54,16 @@ IndexPage.propTypes = {
   }),
 }
 
+/*
+image {
+              childImageSharp {
+                fluid(maxWidth: 1024) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+*/
+
 export const pageQuery = graphql`
   query IndexQuery {
     home: markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
@@ -100,13 +110,6 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             dateShort: date(formatString: "DD.MM.YY")
             dateJs: date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1024) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
           }
         }
       }

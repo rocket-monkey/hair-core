@@ -65,7 +65,7 @@ export default ({ events: eventsRaw, teaser, archive }) => {
       <h1>{teaser ? 'Next Event' : 'Upcoming Events'}</h1>
       {upcoming.map(({ node: post }) => (
         <Link key={post.id} className={styles.event} to={post.fields.slug}>
-          <Img {...post.frontmatter.image.childImageSharp} />
+          {/* <Img {...post.frontmatter.image.childImageSharp} /> */}
           <h5>
             <span>{post.frontmatter.title}</span>
             <small>{post.frontmatter.date}</small>
@@ -112,7 +112,7 @@ export default ({ events: eventsRaw, teaser, archive }) => {
                 background: 'rgba(0,0,0,0.7)',
               }}
             >
-              <Img {...post.frontmatter.image.childImageSharp} />
+              {/* <Img {...post.frontmatter.image.childImageSharp} /> */}
               <h5>
                 <span>{post.frontmatter.title}</span>
                 <small>{post.frontmatter.dateShort}</small>

@@ -51,7 +51,7 @@ const SpiritPage = ({ data }) => {
     <SpiritPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      hero={post.frontmatter.image.childImageSharp}
+      hero={post.frontmatter.image && post.frontmatter.image.childImageSharp}
       content={post.html}
     />
   )
