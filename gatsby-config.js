@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'JUR Records',
-    description: 'Drum & Bass Vinyl Store, Veranstaltungen',
+    title: 'Haircore',
+    description: 'Professional Hairstylist Pascale',
   },
   plugins: [
     'gatsby-plugin-remove-serviceworker',
