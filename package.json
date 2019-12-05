@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-jur",
-  "description": "www.jurrecords.ch built with Gatsby.js & NetlifyCMS",
+  "name": "hair-core",
+  "description": "www.haircore.ch built with Gatsby.js & NetlifyCMS",
   "version": "0.0.1",
   "author": "Remo Vetere",
   "dependencies": {

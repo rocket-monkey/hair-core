@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'class-names'
-import BgVideo from '../../components/BgVideo'
+import { Logo } from '../../components/Logo'
 import Menu from './Menu'
 
 const Navbar = class extends React.Component {
@@ -12,7 +12,7 @@ const Navbar = class extends React.Component {
     const { burgerActive } = this.state
     return (
       <>
-        <BgVideo />
+        <Logo />
 
         <div
           className={classNames('navbar-burger', 'burger', {
