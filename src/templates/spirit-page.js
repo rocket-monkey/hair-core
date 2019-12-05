@@ -51,7 +51,7 @@ const SpiritPage = ({ data }) => {
     <SpiritPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      hero={post.frontmatter.image && post.frontmatter.image.childImageSharp}
+      hero={post.frontmatter.image.childImageSharp}
       content={post.html}
     />
   )
@@ -63,22 +63,19 @@ SpiritPage.propTypes = {
 
 export default SpiritPage
 
-/*
-image {
-          childImageSharp {
-            fluid(maxWidth: 2048) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-         */
-
 export const spiritPageQuery = graphql`
   query SpiritPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 1024) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     }
   }
