@@ -35,7 +35,7 @@ collections:
           widget: 'hidden',
           default: 'openingHours-entry',
         }
-      - { name: day, label: Day, required: true }
+      - { name: title, label: Day }
       - { name: hours, label: Hours, required: true }
 
   - name: 'pages'
