@@ -7,14 +7,6 @@ Bei einem Besuch in meinem Laden kann ich nebst dem Termin-Vereinbaren auch den 
 
 
 
- 
-
-
-
- 
-
-
-
 Wenn ein Termin verschoben werden muss oder etwas dazwischen kommt, bitte ich um eine Abmeldung des Termins mindestens 24 Sunden vor Terminbeginn, während meinen Öffnungszeiten.
 
 
@@ -24,10 +16,6 @@ Bei unabgemeldetem Nichterscheinen oder zu später Terminabsage behalte ich mir 
 
 
 Bei Vereinbarung eines Termines für Haarprojekte ab 5h, ist eine Anzahlung erforderlich. Die 3 Arbeitstage vor dem Termin bezahlt sein sollte. Ansonsten ist der Termin hinfällig.
-
-
-
- 
 
 
 
