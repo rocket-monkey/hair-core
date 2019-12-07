@@ -27,47 +27,38 @@ const Menu = class extends React.Component {
                 </li>
                 <li
                   className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/spirit'),
+                    [styles.active]: this.isActive('/products'),
                   })}
                 >
-                  <Link to="/spirit" className="hover-target">
-                    spirit
+                  <Link to="/products" className="hover-target">
+                    produkte
                   </Link>
                 </li>
                 <li
                   className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/crew'),
+                    [styles.active]: this.isActive('/prices'),
                   })}
                 >
-                  <Link to="/crew" className="hover-target">
-                    crew
+                  <Link to="/prices" className="hover-target">
+                    preise
                   </Link>
                 </li>
                 <li
                   className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/events'),
+                    [styles.active]: this.isActive('/appointment'),
                   })}
                 >
-                  <Link to="/events" className="hover-target">
-                    events
+                  <Link to="/appointment" className="hover-target">
+                    termine
                   </Link>
                 </li>
                 <li
                   className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/store'),
+                    [styles.active]: this.isActive('/contact'),
                   })}
                 >
-                  <Link to="/store" className="hover-target">
-                    store
-                  </Link>
-                </li>
-                <li
-                  className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/wear'),
-                  })}
-                >
-                  <Link to="/wear" className="hover-target">
-                    wear
+                  <Link to="/contact" className="hover-target">
+                    kontakt
                   </Link>
                 </li>
               </ul>

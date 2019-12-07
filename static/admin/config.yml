@@ -24,6 +24,20 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
+  - name: openingHours
+    label: 'Opening Hours'
+    folder: 'src/pages/openingHours'
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'openingHours-entry',
+        }
+      - { name: day, label: Day, required: true }
+      - { name: hours, label: Hours, required: true }
+
   - name: 'pages'
     label: 'Pages'
     files:
@@ -40,15 +54,15 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
-      - file: 'src/pages/spirit/index.md'
-        label: 'Spirit'
-        name: 'spirit'
+      - file: 'src/pages/products/index.md'
+        label: 'Products'
+        name: 'products'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
-              default: 'spirit-page',
+              default: 'products-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - {
@@ -59,18 +73,37 @@ collections:
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
-      - file: 'src/pages/store/index.md'
-        label: 'Store'
-        name: 'store'
+      - file: 'src/pages/prices/index.md'
+        label: 'Prices'
+        name: 'prices'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
-              default: 'store-page',
+              default: 'prices-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Facebook Link', name: 'fbLink', widget: 'string' }
+          - {
+              name: image,
+              label: 'Hero Image',
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/appointment/index.md'
+        label: 'Appointment'
+        name: 'appointment'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'appointment-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
           - {
               name: image,
               label: 'Hero Image',
