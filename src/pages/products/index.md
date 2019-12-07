@@ -1,6 +1,6 @@
 ---
 templateKey: spirit-page
-title: Our spirit
+title: Produkte
 image: /img/fod3G7L.png
 ---
 Tigi  (Bed Head Catwalk S-Factor )
