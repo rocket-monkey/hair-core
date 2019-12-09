@@ -1,11 +1,11 @@
 import CMS from 'netlify-cms'
 
-import SpiritPagePreview from './preview-templates/SpiritPagePreview'
+import ProductsPagePreview from './preview-templates/ProductsPagePreview'
 import HomePagePreview from './preview-templates/HomePagePreview'
-import StorePagePreview from './preview-templates/StorePagePreview'
+import PricesStorePagePreview from './preview-templates/PricesPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 
-CMS.registerPreviewTemplate('spirit', SpiritPagePreview)
+CMS.registerPreviewTemplate('products', ProductsPagePreview)
 CMS.registerPreviewTemplate('home', HomePagePreview)
-CMS.registerPreviewTemplate('store', StorePagePreview)
+CMS.registerPreviewTemplate('prices', PricesStorePagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)

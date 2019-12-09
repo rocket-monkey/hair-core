@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
 import HorizontalLine from '../components/HorizontalLine'
 
-export const SpiritPageTemplate = ({
+export const ProductsPageTemplate = ({
   title,
   hero,
   content,
@@ -38,17 +38,17 @@ export const SpiritPageTemplate = ({
   )
 }
 
-SpiritPageTemplate.propTypes = {
+ProductsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const SpiritPage = ({ data }) => {
+const ProductsPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <SpiritPageTemplate
+    <ProductsPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       hero={post.frontmatter.image.childImageSharp}
@@ -57,14 +57,14 @@ const SpiritPage = ({ data }) => {
   )
 }
 
-SpiritPage.propTypes = {
+ProductsPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default SpiritPage
+export default ProductsPage
 
-export const spiritPageQuery = graphql`
-  query SpiritPage($id: String!) {
+export const productsPageQuery = graphql`
+  query ProductsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StorePageTemplate } from '../../templates/store-page'
+import { PricesPageTemplate } from '../../templates/prices-page'
 
-const StorePagePreview = ({ entry, widgetFor }) => (
-  <StorePageTemplate
+const PricesPagePreview = ({ entry, widgetFor }) => (
+  <PricesPageTemplate
     title={entry.getIn(['data', 'title'])}
     fbLink={entry.getIn(['data', 'fbLink'])}
     hero={entry.getIn(['data', 'image'])}
@@ -11,11 +11,11 @@ const StorePagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-StorePagePreview.propTypes = {
+PricesPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default StorePagePreview
+export default PricesPagePreview

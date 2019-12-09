@@ -2,15 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import classNames from 'class-names'
-import IconFacebook from '../components/icons/Facebook'
-import styles from './store-page.module.scss'
 import Content, { HTMLContent } from '../components/Content'
 import HorizontalLine from '../components/HorizontalLine'
 
-export const StorePageTemplate = ({
+export const AppointmentPageTemplate = ({
   title,
-  fbLink,
   hero,
   content,
   contentComponent,
@@ -21,9 +17,7 @@ export const StorePageTemplate = ({
     <section className="section">
       <div className="container">
         <div className="columns">
-          <div
-            className={classNames('column is-10 is-offset-1', styles.wrapper)}
-          >
+          <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
             {hero && !!hero.fluid ? (
               <Img {...hero} />
@@ -37,16 +31,6 @@ export const StorePageTemplate = ({
             )}
             <HorizontalLine />
             <PageContent className="content" content={content} />
-            <p>JUR Store auf Facebook:</p>
-            <a
-              title="Follow us on facebook!"
-              href={fbLink}
-              rel="noopener noreferrer"
-              target="_blank"
-              className={classNames(styles.link, styles.fb)}
-            >
-              <IconFacebook />
-            </a>
           </div>
         </div>
       </div>
@@ -54,39 +38,37 @@ export const StorePageTemplate = ({
   )
 }
 
-StorePageTemplate.propTypes = {
+AppointmentPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const StorePage = ({ data }) => {
+const AppointmentPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <StorePageTemplate
+    <AppointmentPageTemplate
       contentComponent={HTMLContent}
-      hero={post.frontmatter.image.childImageSharp}
       title={post.frontmatter.title}
-      fbLink={post.frontmatter.fbLink}
+      hero={post.frontmatter.image.childImageSharp}
       content={post.html}
     />
   )
 }
 
-StorePage.propTypes = {
+AppointmentPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default StorePage
+export default AppointmentPage
 
-export const storePageQuery = graphql`
-  query StorePage($id: String!) {
+export const appointmentPageQuery = graphql`
+  query AppointmentPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         title
-        fbLink
         image {
           childImageSharp {
             fluid(maxWidth: 1024) {

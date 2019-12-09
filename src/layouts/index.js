@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import { Logo } from '../components/Logo'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Transition from '../components/Transition'
@@ -21,6 +22,13 @@ class Layout extends React.Component {
               siteMetadata {
                 title
                 description
+              }
+            }
+            imageLogo: file(relativePath: { eq: "logo.png" }) {
+              childImageSharp {
+                fluid(maxWidth: 1024) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
               }
             }
           }
@@ -70,6 +78,7 @@ class Layout extends React.Component {
             </Helmet>
             <Navbar location={location} />
             <Transition location={location}>
+              <Logo image={data.imageLogo} />
               {children}
               <Footer />
             </Transition>

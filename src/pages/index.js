@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -29,9 +28,6 @@ export default class IndexPage extends React.Component {
           <div className="container content">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <Img fluid={data.imageLogo.childImageSharp.fluid} />
-
-                <h2>{data.home.frontmatter.title}</h2>
                 <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
                 {/*
                     <BlogPosts posts={posts} />
@@ -78,13 +74,6 @@ export const pageQuery = graphql`
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }
-        }
-      }
-    }
-    imageLogo: file(relativePath: { eq: "logo.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1024) {
-          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

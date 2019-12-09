@@ -1,20 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { SpiritPageTemplate } from '../../templates/spirit-page'
+import { AppointmentPageTemplate } from '../../templates/appointment-page'
 
-const SpiritPagePreview = ({ entry, widgetFor }) => (
-  <SpiritPageTemplate
+const AppointmentPagePreview = ({ entry, widgetFor }) => (
+  <AppointmentPageTemplate
     title={entry.getIn(['data', 'title'])}
     hero={entry.getIn(['data', 'image'])}
     content={widgetFor('body')}
   />
 )
 
-SpiritPagePreview.propTypes = {
+AppointmentPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default SpiritPagePreview
+export default AppointmentPagePreview

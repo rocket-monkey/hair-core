@@ -11,18 +11,27 @@ const Footer = ({ data }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className={styles.logo}>
+            {/* <div className={styles.logo}>
               <JurLogoFont />
-            </div>
-            JUR Records
+            </div> */}
+            Haircore
             <br />
-            <span>Ochsengässli 7</span>
+            <span>Schaffhauserstrasse 8</span>
             <br />
-            <span>5000 Aarau</span>
+            <span>8006 Zürich (CH)</span>
+            <br />
+            <br />
+            <span>078 847 30 61</span>
+            <br />
+            <br />
+            <span>
+              Ab Zürich Hauptbahnhof Tram 14 oder 11 bis Haltestelle
+              Kronenstrasse (nähe Schaffhauserplatz).
+            </span>
             <div className={styles.socialMedia}>
               <a
-                title="Like us on facebook!"
-                href="https://www.facebook.com/JUR-Records-834721536574427/"
+                title="Like me on facebook!"
+                href="https://www.facebook.com/Haircore-457710921636344/"
                 rel="noopener noreferrer"
                 target="_blank"
                 className={classNames(styles.link, styles.fb)}
@@ -30,8 +39,8 @@ const Footer = ({ data }) => {
                 <IconFacebook />
               </a>
               <a
-                title="Follow us on instagram!"
-                href="https://www.instagram.com/jur_records/"
+                title="Follow me on instagram!"
+                href="https://www.instagram.com/haircore_pascale_fuchs/"
                 rel="noopener noreferrer"
                 target="_blank"
                 className={classNames(styles.link, styles.fb)}
