@@ -1,0 +1,32 @@
+@import '../components/_variables.sass';
+
+.wrapper {
+  @include from(500px) {
+    :global(.gatsby-resp-image-link) {
+      float: left;
+      width: 30%;
+      min-width: 200px;
+      margin-right: 38px;
+    }
+  }
+}
+
+.link {
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.fb,
+.ig,
+.mc,
+.sc {
+  width: 32px;
+  height: 32px;
+  margin: 12px 0;
+  vertical-align: middle;
+  display: inline-block;
+  background: $light;
+  border-radius: 50%;
+}

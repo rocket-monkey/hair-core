@@ -24,6 +24,26 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
+  - name: 'product'
+    label: 'Product'
+    folder: 'src/pages/product'
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'product-post',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          name: image,
+          label: 'Product Image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: openingHours
     label: 'Opening Hours'
     folder: 'src/pages/openingHours'
@@ -54,15 +74,15 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
-      - file: 'src/pages/products/index.md'
-        label: 'Products'
-        name: 'products'
+      - file: 'src/pages/about/index.md'
+        label: 'About'
+        name: 'about'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
-              default: 'products-page',
+              default: 'about-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - {

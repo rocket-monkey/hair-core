@@ -1,6 +1,6 @@
 ---
-templateKey: products-page
-title: Produkte
+templateKey: about-page
+title: Über mich
 image: /img/fod3G7L.png
 ---
 
