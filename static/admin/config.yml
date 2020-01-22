@@ -77,6 +77,7 @@ collections:
             widget: list
             required: false
             fields:
+              - { label: Label, name: label, required: false }
               - {
                   label: image,
                   name: Image,
@@ -100,6 +101,7 @@ collections:
             widget: list
             required: false
             fields:
+              - { label: Label, name: label, required: false }
               - {
                   label: image,
                   name: Image,
@@ -123,6 +125,7 @@ collections:
             widget: list
             required: false
             fields:
+              - { label: Label, name: label, required: false }
               - {
                   label: image,
                   name: Image,
