@@ -61,7 +61,7 @@ collections:
   - name: 'images'
     label: 'Images'
     files:
-      - file: 'src/pages/images/store/index.md'
+      - file: 'src/pages/imagesStore/index.md'
         label: 'Store'
         name: 'store'
         fields:
@@ -84,7 +84,7 @@ collections:
                   media_library: { config: { multiple: false } },
                 }
 
-      - file: 'src/pages/images/customers/index.md'
+      - file: 'src/pages/imagesCustomers/index.md'
         label: 'Customers'
         name: 'customers'
         fields:
@@ -107,7 +107,7 @@ collections:
                   media_library: { config: { multiple: false } },
                 }
 
-      - file: 'src/pages/images/about/index.md'
+      - file: 'src/pages/imagesAbout/index.md'
         label: 'About'
         name: 'about'
         fields:

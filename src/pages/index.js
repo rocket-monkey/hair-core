@@ -7,7 +7,8 @@ export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     // const { edges: posts } = data.blogPosts
-    const { edges: events } = data.events
+    // const { edges: events } = data.events
+    console.log({ data })
 
     return (
       <>
@@ -77,9 +78,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    events: allMarkdownRemark(
-      sort: { order: ASC, fields: [frontmatter___date] }
-      filter: { frontmatter: { templateKey: { eq: "event-post" } } }
+    images: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "images-store" } } }
     ) {
       edges {
         node {
@@ -90,18 +91,8 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            description
             templateKey
             date(formatString: "MMMM DD, YYYY")
-            dateShort: date(formatString: "DD.MM.YY")
-            dateJs: date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1024) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
           }
         }
       }
