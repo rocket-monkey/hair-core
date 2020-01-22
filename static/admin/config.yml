@@ -72,31 +72,52 @@ collections:
               default: 'images-store',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - name: images
+            label: 'Images'
+            widget: list
+            required: false
+            fields:
+              - {
+                  label: image,
+                  name: Image,
+                  widget: image,
+                  media_library: { config: { multiple: false } },
+                }
+
+      - file: 'src/pages/images/customers/index.md'
+        label: 'Customers'
+        name: 'customers'
+        fields:
           - {
-              name: image1,
-              label: 'Image 1',
-              widget: image,
-              media_library: { config: { multiple: false } },
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'images-customers',
             }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - name: images
+            label: 'Images'
+            widget: list
+            required: false
+            fields:
+              - {
+                  label: image,
+                  name: Image,
+                  widget: image,
+                  media_library: { config: { multiple: false } },
+                }
+
+      - file: 'src/pages/images/about/index.md'
+        label: 'About'
+        name: 'about'
+        fields:
           - {
-              name: image2,
-              label: 'Image 2',
-              widget: image,
-              media_library: { config: { multiple: false } },
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'images-about',
             }
-          - {
-              name: image3,
-              label: 'Image 3',
-              widget: image,
-              media_library: { config: { multiple: false } },
-            }
-          - {
-              name: image4,
-              label: 'Image 4',
-              widget: image,
-              media_library: { config: { multiple: false } },
-            }
+          - { label: 'Title', name: 'title', widget: 'string' }
           - name: images
             label: 'Images'
             widget: list
