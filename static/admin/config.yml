@@ -103,6 +103,12 @@ collections:
             fields:
               - { label: Label, name: label, required: false }
               - {
+                  label: 'Type',
+                  name: 'type',
+                  widget: 'select',
+                  options: ['cut-and-colors', 'extensions'],
+                }
+              - {
                   label: image,
                   name: Image,
                   widget: image,
