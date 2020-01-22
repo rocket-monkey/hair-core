@@ -58,6 +58,57 @@ collections:
       - { name: title, label: Day }
       - { name: hours, label: Hours, required: true }
 
+  - name: 'images'
+    label: 'Images'
+    files:
+      - file: 'src/pages/images/store/index.md'
+        label: 'Store'
+        name: 'store'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'images-store',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              name: image1,
+              label: 'Image 1',
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
+          - {
+              name: image2,
+              label: 'Image 2',
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
+          - {
+              name: image3,
+              label: 'Image 3',
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
+          - {
+              name: image4,
+              label: 'Image 4',
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
+          - name: images
+            label: 'Images'
+            widget: list
+            required: false
+            fields:
+              - {
+                  label: image,
+                  name: Image,
+                  widget: image,
+                  media_library: { config: { multiple: false } },
+                }
+
   - name: 'pages'
     label: 'Pages'
     files:
