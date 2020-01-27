@@ -8,5 +8,7 @@ images:
   - Image: /img/biographie-bearbeitet.jpg
     label: yoga biography
   - Image: /img/visitenkarte-bearbeitet-.jpg
+  - Image: /img/hauptbild-bearbeitet.jpg
+    label: i`m the Hairdresser
 ---
 
