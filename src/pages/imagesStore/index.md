@@ -14,5 +14,13 @@ images:
     label: Puppet
   - Image: /img/haircore_sws_386023_13.jpg
     label: Outside
+  - Image: /img/am-arbeiten-mit-isa.jpg
+    label: How I create a style
+  - Image: /img/am-haare-waschen.jpg
+    label: How I washed the Hair
+  - Image: /img/am-besprechung.jpg
+    label: How I finde a style
+  - Image: /img/am-arbeiten-mit-möni.jpg
+    label: How I cut the Hair
 ---
 
