@@ -1,7 +1,7 @@
 ---
 templateKey: product-post
 title: Goldwelle Elumen
-image: /img/uvimgll.jpg
+image: /img/dsc_0697.jpg
 ---
 Die Hochleistungs-Haarfarbe, ohne Oxidation. Für atemberaubende Farbbrillanz.
 
