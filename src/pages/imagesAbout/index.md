@@ -5,6 +5,8 @@ images:
     label: asdfasdf
   - Image: /img/fod3G7L.png
     label: test
-  - Image: /img/uvimgll.jpg
+  - Image: /img/biographie-bearbeitet.jpg
+    label: yoga biography
+  - Image: /img/visitenkarte-bearbeitet-.jpg
 ---
 
