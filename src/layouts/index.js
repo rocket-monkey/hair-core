@@ -7,6 +7,7 @@ import { Logo } from '../components/Logo'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Transition from '../components/Transition'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import './all.sass'
 
 // Note that we need to pass location to our functional component  so we have access to it down there in <Transition/>

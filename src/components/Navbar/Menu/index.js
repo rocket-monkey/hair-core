@@ -21,7 +21,11 @@ const Menu = class extends React.Component {
                     [styles.active]: this.isActive('/'),
                   })}
                 >
-                  <Link to="/" className="hover-target">
+                  <Link
+                    to="/"
+                    className="hover-target"
+                    style={{ color: '#d46625' }}
+                  >
                     home
                   </Link>
                 </li>
@@ -30,7 +34,11 @@ const Menu = class extends React.Component {
                     [styles.active]: this.isActive('/products'),
                   })}
                 >
-                  <Link to="/products" className="hover-target">
+                  <Link
+                    to="/products"
+                    className="hover-target"
+                    style={{ color: '#d8ca24' }}
+                  >
                     produkte
                   </Link>
                 </li>
@@ -39,7 +47,11 @@ const Menu = class extends React.Component {
                     [styles.active]: this.isActive('/prices'),
                   })}
                 >
-                  <Link to="/prices" className="hover-target">
+                  <Link
+                    to="/prices"
+                    className="hover-target"
+                    style={{ color: '#54a029' }}
+                  >
                     preise
                   </Link>
                 </li>
@@ -48,7 +60,11 @@ const Menu = class extends React.Component {
                     [styles.active]: this.isActive('/appointment'),
                   })}
                 >
-                  <Link to="/appointment" className="hover-target">
+                  <Link
+                    to="/appointment"
+                    className="hover-target"
+                    style={{ color: '#524a8e' }}
+                  >
                     termine
                   </Link>
                 </li>
@@ -57,7 +73,11 @@ const Menu = class extends React.Component {
                     [styles.active]: this.isActive('/contact'),
                   })}
                 >
-                  <Link to="/contact" className="hover-target">
+                  <Link
+                    to="/contact"
+                    className="hover-target"
+                    style={{ color: '#14939e' }}
+                  >
                     kontakt
                   </Link>
                 </li>

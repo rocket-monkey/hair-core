@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { Gallery } from '../components/Gallery'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -11,8 +11,8 @@ export default class IndexPage extends React.Component {
     // const { edges: events } = data.events
     const {
       frontmatter: { images },
-    } = data.imagesStore
-    console.log({ images })
+    } = data.images
+    console.log({ data })
 
     return (
       <>
@@ -33,19 +33,7 @@ export default class IndexPage extends React.Component {
           <div className="container content">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                {images.map(data => {
-                  const { Image } = data
-                  if (!Image) {
-                    console.log('wtf', data)
-
-                    return null
-                  }
-                  return (
-                    <div>
-                      <Img fluid={Image.childImageSharp.fluid} />
-                    </div>
-                  )
-                })}
+                <Gallery images={images} />
                 <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
                 {/*
                     <BlogPosts posts={posts} />
@@ -76,8 +64,8 @@ export const pageQuery = graphql`
         title
       }
     }
-    imagesStore: markdownRemark(
-      frontmatter: { templateKey: { eq: "images-store" } }
+    images: markdownRemark(
+      frontmatter: { templateKey: { eq: "images-customers" } }
     ) {
       html
       frontmatter {
@@ -97,25 +85,6 @@ export const pageQuery = graphql`
     blogPosts: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-    images: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { templateKey: { eq: "images-store" } } }
     ) {
       edges {
         node {
