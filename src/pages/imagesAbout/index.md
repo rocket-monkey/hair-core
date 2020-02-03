@@ -1,4 +1,5 @@
 ---
+templateKey: images-about
 title: About
 images:
   - Image: /img/fbp7fbb.jpg
@@ -11,4 +12,3 @@ images:
   - Image: /img/hauptbild-bearbeitet.jpg
     label: i`m the Hairdresser
 ---
-

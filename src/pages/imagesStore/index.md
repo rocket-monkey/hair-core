@@ -1,4 +1,5 @@
 ---
+templateKey: images-store
 title: Store Images
 images:
   - Image: /img/fbp7fbb.jpg
@@ -23,4 +24,3 @@ images:
   - Image: /img/am-arbeiten-mit-möni.jpg
     label: How I cut the Hair
 ---
-

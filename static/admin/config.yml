@@ -106,7 +106,13 @@ collections:
                   label: 'Type',
                   name: 'type',
                   widget: 'select',
-                  options: ['cut-and-colors', 'extensions', 'semi-permanent-dreadlocks', 'hair-tattoos'],
+                  options:
+                    [
+                      'cut-and-colors',
+                      'extensions',
+                      'semi-permanent-dreadlocks',
+                      'hair-tattoos',
+                    ],
                 }
               - {
                   label: image,

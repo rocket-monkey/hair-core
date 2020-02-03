@@ -1,4 +1,5 @@
 ---
+templateKey: images-customers
 title: Costemors
 images:
   - Image: /img/img_7401-kopie.jpg
@@ -164,4 +165,3 @@ images:
     label: Hipster Boy
     type: cut-and-colors
 ---
-

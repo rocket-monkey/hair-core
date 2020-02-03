@@ -2,13 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     // const { edges: posts } = data.blogPosts
     // const { edges: events } = data.events
-    console.log({ data })
+    const {
+      frontmatter: { images },
+    } = data.imagesStore
+    console.log({ images })
 
     return (
       <>
@@ -29,6 +33,19 @@ export default class IndexPage extends React.Component {
           <div className="container content">
             <div className="columns">
               <div className="column is-10 is-offset-1">
+                {images.map(data => {
+                  const { Image } = data
+                  if (!Image) {
+                    console.log('wtf', data)
+
+                    return null
+                  }
+                  return (
+                    <div>
+                      <Img fluid={Image.childImageSharp.fluid} />
+                    </div>
+                  )
+                })}
                 <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
                 {/*
                     <BlogPosts posts={posts} />
@@ -57,6 +74,24 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+      }
+    }
+    imagesStore: markdownRemark(
+      frontmatter: { templateKey: { eq: "images-store" } }
+    ) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        images {
+          Image {
+            childImageSharp {
+              fluid(maxWidth: 1024) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
       }
     }
     blogPosts: allMarkdownRemark(
