@@ -143,8 +143,9 @@ collections:
                   name: Image,
                   widget: image,
                   media_library: { config: { multiple: false } },
+                }
 
-      - file: 'src/pages/imagesGaller</index.md'
+      - file: 'src/pages/imagesGallery/index.md'
         label: 'Gallery'
         name: 'gallery'
         fields:
