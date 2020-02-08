@@ -143,6 +143,29 @@ collections:
                   name: Image,
                   widget: image,
                   media_library: { config: { multiple: false } },
+
+      - file: 'src/pages/imagesGaller</index.md'
+        label: 'Gallery'
+        name: 'gallery'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'images-gallery',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - name: images
+            label: 'Images'
+            widget: list
+            required: false
+            fields:
+              - { label: Label, name: label, required: false }
+              - {
+                  label: image,
+                  name: Image,
+                  widget: image,
+                  media_library: { config: { multiple: false } },
                 }
 
   - name: 'pages'
