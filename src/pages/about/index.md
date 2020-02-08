@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Über mich
-image: /img/fod3G7L.png
+image: /img/biographie-bearbeitet.jpg
 ---
 Seit über 16 Jahren arbeite ich als Coiffeuse. 10 Jahre davon unter Anderem in meinem eigenen Salon. Da ich vom klassischen Haarschnitt zu den ausgefallensten Färbetechnicken.
 
