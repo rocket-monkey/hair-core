@@ -41,7 +41,7 @@ ImagesGallery.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default imagesGallery
+export default ImagesGallery
 
 export const imagesGalleryQuery = graphql`
   query ImagesGallery($id: String!) {
