@@ -6,8 +6,8 @@ Es erwartet dich eine erfahrene, kompetente und herzliche Coiffeuse, die mit vie
 
 Da ich die meiste Zeit alleine im Salon arbeite, findest du bei mir eine persönliche und gemütliche Stimmung, die auch mal zu tieferen Gesprächen einlädt.
 
-![](/img/fbp7fbb.jpg)
+![](/img/am-arbeiten-mit-möni.jpg)
 
-dsafafasf
+![](/img/am-besprechung.jpg)
 
-![](/img/uvimgll.jpg)
+![](/img/am-arbeiten-mit-isa.jpg)
