@@ -33,6 +33,7 @@ export default class Index extends React.Component {
   }
 
   render() {
+    return null
     return (
       <section className="section">
         <div className="container">

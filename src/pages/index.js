@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
+import classNames from 'class-names'
+import styles from '../templates/home-page.module.scss'
 import { Gallery } from '../components/Gallery'
 
 export default class IndexPage extends React.Component {
@@ -32,7 +34,12 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container content">
             <div className="columns">
-              <div className="column is-10 is-offset-1">
+              <div
+                className={classNames(
+                  'column is-10 is-offset-1',
+                  styles.wrapper
+                )}
+              >
                 <Gallery images={images} />
                 <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
                 {/*
@@ -65,7 +72,7 @@ export const pageQuery = graphql`
       }
     }
     images: markdownRemark(
-      frontmatter: { templateKey: { eq: "images-customers" } }
+      frontmatter: { templateKey: { eq: "images-gallery" } }
     ) {
       html
       frontmatter {

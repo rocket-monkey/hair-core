@@ -215,12 +215,12 @@ collections:
               default: 'prices-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Facebook Link', name: 'fbLink', widget: 'string' }
           - {
               name: image,
               label: 'Hero Image',
               widget: image,
               media_library: { config: { multiple: false } },
+              required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -240,5 +240,6 @@ collections:
               label: 'Hero Image',
               widget: image,
               media_library: { config: { multiple: false } },
+              required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }

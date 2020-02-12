@@ -8,7 +8,6 @@ export default class ProductsPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-    console.log({ posts })
 
     return (
       <section className="section">
@@ -23,21 +22,17 @@ export default class ProductsPage extends React.Component {
                     if (!post) {
                       return null
                     }
-                    const firstImg =
-                      post.frontmatter.images &&
-                      post.frontmatter.images.length &&
-                      post.frontmatter.images[0]
+                    console.log(post)
 
+                    const firstImg = post.frontmatter.image
                     return (
                       <tr>
                         <td>
-                          {firstImg && (
-                            <Img {...firstImg.image.childImageSharp} />
-                          )}
+                          {firstImg && <Img {...firstImg.childImageSharp} />}
                         </td>
                         <td>
                           <h3>{post.frontmatter.title}</h3>
-                          <p>{post.frontmatter.description}</p>
+                          <p dangerouslySetInnerHTML={{ __html: post.html }} />
                         </td>
                       </tr>
                     )
@@ -82,17 +77,15 @@ export const productsQuery = graphql`
           fields {
             slug
           }
+          html
           frontmatter {
             title
-            description
             templateKey
             date(formatString: "MMMM DD, YYYY")
-            images {
-              Image {
-                childImageSharp {
-                  fluid(maxWidth: 600) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
+            image {
+              childImageSharp {
+                fluid(maxWidth: 600) {
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }

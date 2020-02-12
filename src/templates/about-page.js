@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import classNames from 'class-names'
-import IconFacebook from '../components/icons/Facebook'
 import styles from './about-page.module.scss'
 import Content, { HTMLContent } from '../components/Content'
 import HorizontalLine from '../components/HorizontalLine'
@@ -37,16 +36,6 @@ export const AboutPageTemplate = ({
             )}
             <HorizontalLine />
             <PageContent className="content" content={content} />
-            <p>JUR About auf Facebook:</p>
-            <a
-              title="Follow us on facebook!"
-              href={fbLink}
-              rel="noopener noreferrer"
-              target="_blank"
-              className={classNames(styles.link, styles.fb)}
-            >
-              <IconFacebook />
-            </a>
           </div>
         </div>
       </div>

@@ -1,0 +1,17 @@
+@import '../components/_variables.sass';
+
+.wrapper {
+  @include from(500px) {
+    :global(.gatsby-resp-image-link) {
+      float: left;
+      width: 30%;
+      min-width: 200px;
+      margin-right: 38px;
+      margin-top: 24px;
+    }
+  }
+
+  :global(.carousel) {
+    margin-bottom: 48px;
+  }
+}

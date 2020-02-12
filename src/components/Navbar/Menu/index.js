@@ -74,11 +74,11 @@ const Menu = class extends React.Component {
                   })}
                 >
                   <Link
-                    to="/contact"
+                    to="/about"
                     className="hover-target"
                     style={{ color: '#14939e' }}
                   >
-                    kontakt
+                    über mich
                   </Link>
                 </li>
               </ul>
