@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import { OpeningHours } from '../components/OpeningHours'
+import { Holidays } from '../components/Holidays'
 import classNames from 'class-names'
 import styles from '../templates/home-page.module.scss'
 import { Gallery } from '../components/Gallery'
@@ -15,8 +16,6 @@ export default class IndexPage extends React.Component {
     const {
       frontmatter: { images },
     } = data.images
-
-    console.log({ holidays: data.holidays })
 
     return (
       <>
@@ -48,6 +47,7 @@ export default class IndexPage extends React.Component {
                     <BlogPosts posts={posts} />
                   */}
                 <OpeningHours openingHours={data.openingHours} />
+                <Holidays holidays={data.holidays} />
               </div>
             </div>
           </div>

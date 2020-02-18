@@ -31,7 +31,7 @@ export const OpeningHours = ({ openingHours, layout = 'big' }) => {
   )
 
   return (
-    <diV>
+    <div>
       <h3>Öffnungszeiten</h3>
       {monday && <Entry {...monday.node.frontmatter} />}
       {tuesday && <Entry {...tuesday.node.frontmatter} />}
@@ -39,6 +39,6 @@ export const OpeningHours = ({ openingHours, layout = 'big' }) => {
       {thursday && <Entry {...thursday.node.frontmatter} />}
       {friday && <Entry {...friday.node.frontmatter} />}
       {saturday && <Entry {...saturday.node.frontmatter} />}
-    </diV>
+    </div>
   )
 }
