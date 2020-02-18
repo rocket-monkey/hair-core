@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
+import { OpeningHours } from '../components/OpeningHours'
 import classNames from 'class-names'
 import styles from '../templates/home-page.module.scss'
 import { Gallery } from '../components/Gallery'
@@ -14,7 +15,6 @@ export default class IndexPage extends React.Component {
     const {
       frontmatter: { images },
     } = data.images
-    console.log({ data })
 
     return (
       <>
@@ -45,6 +45,7 @@ export default class IndexPage extends React.Component {
                 {/*
                     <BlogPosts posts={posts} />
                   */}
+                <OpeningHours openingHours={data.openingHours} />
               </div>
             </div>
           </div>
@@ -85,6 +86,25 @@ export const pageQuery = graphql`
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
+          }
+        }
+      }
+    }
+    openingHours: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "openingHours-entry" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            hours
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }
