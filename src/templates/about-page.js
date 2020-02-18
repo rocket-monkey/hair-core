@@ -54,7 +54,6 @@ const AboutPage = ({ data }) => {
   return (
     <AboutPageTemplate
       contentComponent={HTMLContent}
-      hero={post.frontmatter.image.childImageSharp}
       title={post.frontmatter.title}
       content={post.html}
     />
@@ -73,13 +72,13 @@ export const AboutPageQuery = graphql`
       html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1024) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
+        # image {
+        #   childImageSharp {
+        #     fluid(maxWidth: 1024) {
+        #       ...GatsbyImageSharpFluid_withWebp
+        #     }
+        #   }
+        # }
       }
     }
   }
