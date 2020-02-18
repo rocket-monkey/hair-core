@@ -95,7 +95,7 @@ collections:
           label: Von,
           widget: 'date',
           default: '',
-          format: 'Do MMM YY',
+          format: 'DD.MM.YYYY',
           required: true,
         }
       - {
@@ -103,7 +103,7 @@ collections:
           label: Bis,
           widget: 'date',
           default: '',
-          format: 'Do MMM YY',
+          format: 'DD.MM.YYYY',
           required: true,
         }
 

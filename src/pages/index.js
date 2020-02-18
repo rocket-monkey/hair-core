@@ -16,6 +16,8 @@ export default class IndexPage extends React.Component {
       frontmatter: { images },
     } = data.images
 
+    console.log({ holidays: data.holidays })
+
     return (
       <>
         <Helmet>
@@ -104,6 +106,26 @@ export const pageQuery = graphql`
           frontmatter {
             title
             hours
+            date(formatString: "MMMM DD, YYYY")
+          }
+        }
+      }
+    }
+    holidays: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "holidays-entry" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            from
+            to
             date(formatString: "MMMM DD, YYYY")
           }
         }
