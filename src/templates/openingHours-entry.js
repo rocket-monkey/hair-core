@@ -52,26 +52,28 @@ OpeningHoursTemplate.propTypes = {
 }
 
 const OpeningHours = ({ data }) => {
-  const { markdownRemark: post } = data
+  // const { markdownRemark: post } = data
 
-  return (
-    <OpeningHoursTemplate
-      content={post.html}
-      contentComponent={HTMLContent}
-      description={post.frontmatter.description}
-      helmet={
-        <Helmet titleTemplate="%s | Blog">
-          <title>{`${post.frontmatter.title}`}</title>
-          <meta
-            name="description"
-            content={`${post.frontmatter.description}`}
-          />
-        </Helmet>
-      }
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-    />
-  )
+  return <pre>{JSON.stringify(data, null, 2)}</pre>
+
+  // return (
+  //   <OpeningHoursTemplate
+  //     content={post.html}
+  //     contentComponent={HTMLContent}
+  //     description={post.frontmatter.description}
+  //     helmet={
+  //       <Helmet titleTemplate="%s | Blog">
+  //         <title>{`${post.frontmatter.title}`}</title>
+  //         <meta
+  //           name="description"
+  //           content={`${post.frontmatter.description}`}
+  //         />
+  //       </Helmet>
+  //     }
+  //     tags={post.frontmatter.tags}
+  //     title={post.frontmatter.title}
+  //   />
+  // )
 }
 
 OpeningHours.propTypes = {
@@ -81,16 +83,3 @@ OpeningHours.propTypes = {
 }
 
 export default OpeningHours
-
-export const pageQuery = graphql`
-  query OpeningHoursByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        title
-      }
-    }
-  }
-`
