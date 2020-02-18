@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
+import { Link } from 'gatsby'
+import Content from '../components/Content'
 
 export const HolidaysTemplate = ({
   content,
@@ -52,26 +51,28 @@ HolidaysTemplate.propTypes = {
 }
 
 const Holidays = ({ data }) => {
-  const { markdownRemark: post } = data
+  // const { markdownRemark: post } = data
 
-  return (
-    <HolidaysTemplate
-      content={post.html}
-      contentComponent={HTMLContent}
-      description={post.frontmatter.description}
-      helmet={
-        <Helmet titleTemplate="%s | Blog">
-          <title>{`${post.frontmatter.title}`}</title>
-          <meta
-            name="description"
-            content={`${post.frontmatter.description}`}
-          />
-        </Helmet>
-      }
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-    />
-  )
+  return <pre>{JSON.stringify(data, null, 2)}</pre>
+
+  // return (
+  //   <HolidaysTemplate
+  //     content={post.html}
+  //     contentComponent={HTMLContent}
+  //     description={post.frontmatter.description}
+  //     helmet={
+  //       <Helmet titleTemplate="%s | Blog">
+  //         <title>{`${post.frontmatter.title}`}</title>
+  //         <meta
+  //           name="description"
+  //           content={`${post.frontmatter.description}`}
+  //         />
+  //       </Helmet>
+  //     }
+  //     tags={post.frontmatter.tags}
+  //     title={post.frontmatter.title}
+  //   />
+  // )
 }
 
 Holidays.propTypes = {
