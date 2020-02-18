@@ -22,14 +22,18 @@ export const AppointmentPageTemplate = ({
             {hero && !!hero.fluid ? (
               <Img {...hero} />
             ) : (
-              <div
-                className="full-width-image-container margin-top-0"
-                style={{
-                  backgroundImage: `url(${hero})`,
-                }}
-              />
+              hero && (
+                <>
+                  <div
+                    className="full-width-image-container margin-top-0"
+                    style={{
+                      backgroundImage: `url(${hero})`,
+                    }}
+                  />
+                  <HorizontalLine />
+                </>
+              )
             )}
-            <HorizontalLine />
             <PageContent className="content" content={content} />
           </div>
         </div>
@@ -51,7 +55,7 @@ const AppointmentPage = ({ data }) => {
     <AppointmentPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      hero={post.frontmatter.image.childImageSharp}
+      hero={post.frontmatter.image && post.frontmatter.image.childImageSharp}
       content={post.html}
     />
   )

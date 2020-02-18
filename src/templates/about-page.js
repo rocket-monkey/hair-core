@@ -9,7 +9,6 @@ import HorizontalLine from '../components/HorizontalLine'
 
 export const AboutPageTemplate = ({
   title,
-  fbLink,
   hero,
   content,
   contentComponent,
@@ -57,7 +56,6 @@ const AboutPage = ({ data }) => {
       contentComponent={HTMLContent}
       hero={post.frontmatter.image.childImageSharp}
       title={post.frontmatter.title}
-      fbLink={post.frontmatter.fbLink}
       content={post.html}
     />
   )
@@ -75,7 +73,6 @@ export const AboutPageQuery = graphql`
       html
       frontmatter {
         title
-        fbLink
         image {
           childImageSharp {
             fluid(maxWidth: 1024) {

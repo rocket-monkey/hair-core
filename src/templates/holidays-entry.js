@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 
-export const OpeningHoursTemplate = ({
+export const HolidaysTemplate = ({
   content,
   contentComponent,
   description,
@@ -43,7 +43,7 @@ export const OpeningHoursTemplate = ({
   )
 }
 
-OpeningHoursTemplate.propTypes = {
+HolidaysTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -51,11 +51,11 @@ OpeningHoursTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const OpeningHours = ({ data }) => {
+const Holidays = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <OpeningHoursTemplate
+    <HolidaysTemplate
       content={post.html}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
@@ -74,10 +74,10 @@ const OpeningHours = ({ data }) => {
   )
 }
 
-OpeningHours.propTypes = {
+Holidays.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default OpeningHours
+export default Holidays

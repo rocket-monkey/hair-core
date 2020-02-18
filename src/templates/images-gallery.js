@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 
 export const ImagesGalleryTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+  // const PageContent = contentComponent || Content
 
   return (
     <section className="section">

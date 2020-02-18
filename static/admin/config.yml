@@ -44,6 +44,26 @@ collections:
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
+  - name: 'testimonial'
+    label: 'Testimonial'
+    folder: 'src/pages/testimonial'
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'testimonial-post',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          name: image,
+          label: 'Product Image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: openingHours
     label: 'Opening Hours'
     folder: 'src/pages/openingHours'
@@ -57,6 +77,35 @@ collections:
         }
       - { name: title, label: Day }
       - { name: hours, label: Hours, required: true }
+
+  - name: holidays
+    label: 'Holidays'
+    folder: 'src/pages/holidays'
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'holidays-entry',
+        }
+      - { name: title, label: Title }
+      - {
+          name: from,
+          label: Von,
+          widget: 'date',
+          default: '',
+          format: 'Do MMM YY',
+          required: true,
+        }
+      - {
+          name: to,
+          label: Bis,
+          widget: 'date',
+          default: '',
+          format: 'Do MMM YY',
+          required: true,
+        }
 
   - name: 'images'
     label: 'Images'

@@ -3,14 +3,12 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import classNames from 'class-names'
-import IconFacebook from '../components/icons/Facebook'
 import styles from './prices-page.module.scss'
 import Content, { HTMLContent } from '../components/Content'
 import HorizontalLine from '../components/HorizontalLine'
 
 export const PricesPageTemplate = ({
   title,
-  fbLink,
   hero,
   content,
   contentComponent,
@@ -28,25 +26,19 @@ export const PricesPageTemplate = ({
             {hero && !!hero.fluid ? (
               <Img {...hero} />
             ) : (
-              <div
-                className="full-width-image-container margin-top-0"
-                style={{
-                  backgroundImage: `url(${hero})`,
-                }}
-              />
+              hero && (
+                <>
+                  <div
+                    className="full-width-image-container margin-top-0"
+                    style={{
+                      backgroundImage: `url(${hero})`,
+                    }}
+                  />
+                  <HorizontalLine />
+                </>
+              )
             )}
-            <HorizontalLine />
             <PageContent className="content" content={content} />
-            <p>JUR Prices auf Facebook:</p>
-            <a
-              title="Follow us on facebook!"
-              href={fbLink}
-              rel="noopener noreferrer"
-              target="_blank"
-              className={classNames(styles.link, styles.fb)}
-            >
-              <IconFacebook />
-            </a>
           </div>
         </div>
       </div>
@@ -66,9 +58,8 @@ const PricesPage = ({ data }) => {
   return (
     <PricesPageTemplate
       contentComponent={HTMLContent}
-      hero={post.frontmatter.image.childImageSharp}
+      hero={post.frontmatter.image && post.frontmatter.image.childImageSharp}
       title={post.frontmatter.title}
-      fbLink={post.frontmatter.fbLink}
       content={post.html}
     />
   )
@@ -86,7 +77,6 @@ export const pricesPageQuery = graphql`
       html
       frontmatter {
         title
-        fbLink
         image {
           childImageSharp {
             fluid(maxWidth: 1024) {

@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel'
 export const Gallery = ({ images }) => {
   return (
     <div>
-      <Carousel showThumbs={false} autoPlay>
+      <Carousel showThumbs={false} autoPlay infiniteLoop>
         {images
           .filter(data => !!data.Image)
           .map(data => {

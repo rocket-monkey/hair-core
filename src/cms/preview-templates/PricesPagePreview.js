@@ -5,7 +5,6 @@ import { PricesPageTemplate } from '../../templates/prices-page'
 const PricesPagePreview = ({ entry, widgetFor }) => (
   <PricesPageTemplate
     title={entry.getIn(['data', 'title'])}
-    fbLink={entry.getIn(['data', 'fbLink'])}
     hero={entry.getIn(['data', 'image'])}
     content={widgetFor('body')}
   />
