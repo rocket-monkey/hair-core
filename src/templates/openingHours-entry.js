@@ -81,3 +81,16 @@ OpeningHours.propTypes = {
 }
 
 export default OpeningHours
+
+export const pageQuery = graphql`
+  query OpeningHoursByID($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+      }
+    }
+  }
+`
