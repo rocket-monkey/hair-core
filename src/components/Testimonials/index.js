@@ -14,7 +14,7 @@ export const Testimonials = ({ testimonials }) => {
         {testimonials.edges.map((t, index) => {
           const { title, image } = t.node.frontmatter
           return (
-            <div className={styles.entry}>
+            <div key={`testimonial-${index}`} className={styles.entry}>
               <h3>{title}</h3>
               <Img {...image.childImageSharp} />
               <p dangerouslySetInnerHTML={{ __html: t.node.html }} />
