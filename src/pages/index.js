@@ -25,13 +25,13 @@ export default class IndexPage extends React.Component {
           <meta property="og:title" content="JUR Records" />
           <meta
             property="og:description"
-            content="Welcome to JUR Records, dem Schweizer Drum and Bass Label seit 1991."
+            content="Haircore - Finde dein inneres Core. Mit Pascale Professional Hairdresser"
           />
           <meta
             property="og:image"
-            content="blob:https://www.jurrecords.ch/ca2b4c68-2d4c-4fbd-a496-41138572f069"
+            content="blob:http://haircore.ch/static/f0a131a85faaa1593b1cdfab75466ea2/774d6/logo.png"
           />
-          <meta property="og:url" content="https://www.jurrecords.ch" />
+          <meta property="og:url" content="https://www.haircore.ch" />
         </Helmet>
         <section className="section">
           <div className="container content">
