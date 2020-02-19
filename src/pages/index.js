@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import { OpeningHours } from '../components/OpeningHours'
 import { Holidays } from '../components/Holidays'
+import { Testimonials } from '../components/Testimonials'
 import classNames from 'class-names'
 import styles from '../templates/home-page.module.scss'
 import { Gallery } from '../components/Gallery'
@@ -48,6 +49,7 @@ export default class IndexPage extends React.Component {
                   */}
                 <OpeningHours openingHours={data.openingHours} />
                 <Holidays holidays={data.holidays} />
+                <Testimonials testimonials={data.testimonials} />
               </div>
             </div>
           </div>
@@ -126,6 +128,32 @@ export const pageQuery = graphql`
             title
             from
             to
+            date(formatString: "MMMM DD, YYYY")
+          }
+        }
+      }
+    }
+    testimonials: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "testimonial-post" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
+          }
+          html
+          frontmatter {
+            title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1024) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
             date(formatString: "MMMM DD, YYYY")
           }
         }

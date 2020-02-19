@@ -1,0 +1,18 @@
+@import '../_variables.sass';
+
+.testimonials {
+  clear: both;
+  padding-top: 32px;
+}
+
+.flex {
+  display: flex;
+
+  > div {
+    flex-basis: 50%;
+
+    :global(.gatsby-image-wrapper) {
+      margin-bottom: 24px;
+    }
+  }
+}

@@ -8,10 +8,10 @@ export const Gallery = ({ images }) => {
       <Carousel showThumbs={false} autoPlay infiniteLoop>
         {images
           .filter(data => !!data.Image)
-          .map(data => {
+          .map((data, index) => {
             const { Image } = data
             return (
-              <div>
+              <div key={`gallery-entry-${index}`}>
                 <Img fluid={Image.childImageSharp.fluid} />
               </div>
             )
