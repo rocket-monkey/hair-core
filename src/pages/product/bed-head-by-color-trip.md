@@ -7,4 +7,4 @@ Color Trip ist eine neue Kollektion lang anhaltender, semi-permanenter Haarfarbe
 
 
 
-https://www.tigi.com/bedhead/de/bed-head-colour-trip/
+<https://www.tigi.com/bedhead/de/bed-head-colour-trip/>
