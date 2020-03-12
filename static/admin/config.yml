@@ -273,6 +273,25 @@ collections:
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
+      - file: 'src/pages/kunsthaarPflegeanleitung/index.md'
+        label: 'Kunsthaar Pflegeanleitung'
+        name: 'kunsthaarPflegeanleitung'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'kunsthaarPflegeanleitung-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              name: image,
+              label: 'Hero Image',
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
       - file: 'src/pages/prices/index.md'
         label: 'Prices'
         name: 'prices'
