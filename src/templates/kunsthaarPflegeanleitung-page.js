@@ -23,17 +23,6 @@ export const KunsthaarPflegeanleitungPageTemplate = ({
             className={classNames('column is-10 is-offset-1', styles.wrapper)}
           >
             <h1>{title}</h1>
-            {hero && !!hero.fluid ? (
-              <Img {...hero} />
-            ) : (
-              <div
-                className="full-width-image-container margin-top-0"
-                style={{
-                  backgroundImage: `url(${hero})`,
-                }}
-              />
-            )}
-            <HorizontalLine />
             <PageContent className="content" content={content} />
           </div>
         </div>

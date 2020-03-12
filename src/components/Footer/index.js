@@ -31,7 +31,7 @@ const Footer = ({ data }) => {
             <div className={styles.socialMedia}>
               <a
                 title="Like me on facebook!"
-                href="https://www.facebook.com/Haircore-457710921636344/"
+                href="https://www.facebook.com/Haircore-457710921636344"
                 rel="noopener noreferrer"
                 target="_blank"
                 className={classNames(styles.link, styles.fb)}
@@ -40,7 +40,7 @@ const Footer = ({ data }) => {
               </a>
               <a
                 title="Follow me on instagram!"
-                href="https://www.instagram.com/haircore_pascale_fuchs/"
+                href="https://www.instagram.com/haircore_pascale_fuchs/?hl=de"
                 rel="noopener noreferrer"
                 target="_blank"
                 className={classNames(styles.link, styles.fb)}

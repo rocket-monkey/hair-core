@@ -22,9 +22,16 @@ export default class ProductsPage extends React.Component {
                     if (!post) {
                       return null
                     }
-                    console.log(post)
 
                     const firstImg = post.frontmatter.image
+                    let productHtml = post.html
+
+                    if (productHtml.includes('Pflegeanleitung')) {
+                      productHtml = productHtml.replace(
+                        /Pflegeanleitung/gi,
+                        '<a href="/kunsthaarPflegeanleitung" target="_blank">Pflegeanleitung</a>'
+                      )
+                    }
                     return (
                       <tr>
                         <td>
@@ -32,7 +39,9 @@ export default class ProductsPage extends React.Component {
                         </td>
                         <td>
                           <h3>{post.frontmatter.title}</h3>
-                          <p dangerouslySetInnerHTML={{ __html: post.html }} />
+                          <p
+                            dangerouslySetInnerHTML={{ __html: productHtml }}
+                          />
                         </td>
                       </tr>
                     )
