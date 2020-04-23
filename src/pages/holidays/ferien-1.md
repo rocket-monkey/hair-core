@@ -1,7 +1,7 @@
 ---
 templateKey: holidays-entry
 title: Ferien 1
-from: 13.02.2020
-to: 06.03.2020
+from: 27.05.2020
+to: 02.06.2020
 ---
 
