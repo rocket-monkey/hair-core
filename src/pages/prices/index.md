@@ -114,4 +114,6 @@ Je nach Zeitaufwand.
 
  _Die Dreadlocks sind wiederverwendbar_
 
-_Alle Preise sind ohne Gewähr und in CHF. Bei mir ist_ **keine Kartenzahlung** _möglich. Es gibt mehrere Automaten in unmittelbarer nähe._
+_Alle Preise sind ohne Gewähr und in CHF._ 
+
+_Bei mir ist_ **keine Kartenzahlung** _möglich. Es gibt mehrere Automaten in unmittelbarer nähe._
