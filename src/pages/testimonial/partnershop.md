@@ -1,6 +1,8 @@
 ---
 templateKey: testimonial-post
 title: Partnershop!
-image: /img/fbp7fbb.jpg
+image: /img/dsc09592_text.jpg
 ---
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. [a link to the shop](google.ch)
+Um  fix instalierte Echthaardreads zu machen, Dreads Verlängerungen mit Kunst- und Echthaar, Ausbesserungen, Reparaturen bestehender Dreads oder Spezialanfertigung von Dreads nach Kundenwunsch kannst du direkt mit Lore in Kontakt mit dem Formular auf der cosmolab Home Pageunten oder per email lore@cosmolab.ch oder Telefon 079 606 50 33 kommen.
+
+<https://www.cosmolab.ch/>
