@@ -254,6 +254,25 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
+      - file: 'src/pages/info/index.md'
+        label: 'Home Info 🚨'
+        name: 'info'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'info-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Active',
+              name: 'active',
+              widget: 'boolean',
+              default: false,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
       - file: 'src/pages/about/index.md'
         label: 'About'
         name: 'about'

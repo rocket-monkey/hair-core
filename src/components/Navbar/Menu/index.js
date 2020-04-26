@@ -70,7 +70,7 @@ const Menu = class extends React.Component {
                 </li>
                 <li
                   className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/contact'),
+                    [styles.active]: this.isActive('/about'),
                   })}
                 >
                   <Link
