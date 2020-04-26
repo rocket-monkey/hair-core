@@ -17,7 +17,7 @@ export const Testimonials = ({ testimonials }) => {
             <div key={`testimonial-${index}`} className={styles.entry}>
               <h3>{title}</h3>
               {image && <Img {...image.childImageSharp} />}
-              <p dangerouslySetInnerHTML={{ __html: t.node.html }} />
+              <div dangerouslySetInnerHTML={{ __html: t.node.html }} />
             </div>
           )
         })}
