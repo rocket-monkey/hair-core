@@ -8,6 +8,7 @@ import { Testimonials } from '../components/Testimonials'
 import classNames from 'class-names'
 import styles from '../templates/home-page.module.scss'
 import { Gallery } from '../components/Gallery'
+import { InfoText } from '../components/InfoText'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -17,6 +18,8 @@ export default class IndexPage extends React.Component {
     const {
       frontmatter: { images },
     } = data.images
+
+    const { info } = data
 
     return (
       <>
@@ -42,6 +45,7 @@ export default class IndexPage extends React.Component {
                   styles.wrapper
                 )}
               >
+                <InfoText info={info} />
                 <Gallery images={images} />
                 <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
                 {/*
@@ -74,6 +78,14 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+      }
+    }
+    info: markdownRemark(frontmatter: { templateKey: { eq: "info-page" } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        active
       }
     }
     images: markdownRemark(
