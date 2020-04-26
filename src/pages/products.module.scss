@@ -1,28 +1,47 @@
 @import '../components/_variables.sass';
 
-.product {
-  width: 48.5%;
-  display: block;
+.table {
+  position: relative;
+}
+
+.row {
+  border-bottom: 1px solid white;
+  margin-bottom: 21px;
+  padding-bottom: 12px;
+
+  @media (min-width: 992px) {
+    display: flex;
+  }
+}
+
+.leftCell {
+  width: 100%;
+  margin: 0 0 12px 0;
+
+  @media (min-width: 992px) {
+    width: 250px;
+    flex-shrink: 0;
+    margin: 0 12px 0 0;
+  }
+}
+
+.rightCell {
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.para {
   position: relative;
 
-  &.even {
-    height: 240px;
-  }
-
-  &.odd {
-    height: 150px;
-
-    @include from($tablet) {
-      height: 180px;
-    }
-  }
-
-  @include from($tablet) {
-    width: 33.334%;
-  }
-
-  :global(.gatsby-image-wrapper) {
-    height: 100%;
+  a {
+    white-space: nowrap;
+    width: 300px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 

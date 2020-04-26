@@ -3,6 +3,10 @@ import Img from 'gatsby-image'
 import { Carousel } from 'react-responsive-carousel'
 
 export const Gallery = ({ images }) => {
+  if (!images) {
+    return null
+  }
+
   return (
     <div>
       <Carousel showThumbs={false} autoPlay infiniteLoop>

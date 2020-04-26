@@ -9,7 +9,7 @@ export const Logo = ({ image }) => {
   }
 
   return (
-    <section className="section">
+    <section className={styles.wrapper}>
       <div className="container content">
         <div className={styles.container}>
           <Link to="/" className={styles.logo}>

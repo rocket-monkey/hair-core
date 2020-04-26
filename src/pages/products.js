@@ -14,40 +14,41 @@ export default class ProductsPage extends React.Component {
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <h1>Products</h1>
+              <h1>Produkte</h1>
 
-              <table className={styles.table}>
-                <tbody>
-                  {posts.map(({ node: post }) => {
-                    if (!post) {
-                      return null
-                    }
+              <div className={styles.table}>
+                {posts.map(({ node: post }) => {
+                  if (!post) {
+                    return null
+                  }
 
-                    const firstImg = post.frontmatter.image
-                    let productHtml = post.html
+                  const firstImg = post.frontmatter.image
+                  let productHtml = post.html
 
-                    if (productHtml.includes('Pflegeanleitung')) {
-                      productHtml = productHtml.replace(
-                        /Pflegeanleitung/gi,
-                        '<a href="/kunsthaarPflegeanleitung" target="_blank">Pflegeanleitung</a>'
-                      )
-                    }
-                    return (
-                      <tr>
-                        <td>
-                          {firstImg && <Img {...firstImg.childImageSharp} />}
-                        </td>
-                        <td>
-                          <h3>{post.frontmatter.title}</h3>
-                          <p
-                            dangerouslySetInnerHTML={{ __html: productHtml }}
-                          />
-                        </td>
-                      </tr>
+                  if (productHtml.includes('Pflegeanleitung')) {
+                    productHtml = productHtml.replace(
+                      /Pflegeanleitung/gi,
+                      '<a href="/kunsthaarPflegeanleitung" target="_blank">Pflegeanleitung</a>'
                     )
-                  })}
-                </tbody>
-              </table>
+                  }
+                  return (
+                    <div className={styles.row}>
+                      <div className={styles.leftCell}>
+                        {firstImg && <Img {...firstImg.childImageSharp} />}
+                      </div>
+                      <div className={styles.rightCell}>
+                        <h3 className={styles.title}>
+                          {post.frontmatter.title}
+                        </h3>
+                        <p
+                          className={styles.para}
+                          dangerouslySetInnerHTML={{ __html: productHtml }}
+                        />
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
             </div>
           </div>
         </div>
