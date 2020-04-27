@@ -11,6 +11,6 @@ images:
   - Image: /img/cut-color1.png
   - Image: /img/freaks.jpg
   - Image: /img/3-long-hair.jpg
-  - Image: /img/bunte-curls.jpg
+  - Image: /img/3-curly.jpg
 ---
 
