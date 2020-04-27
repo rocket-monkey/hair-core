@@ -11,6 +11,6 @@ images:
   - Image: /img/cut-color1.png
   - Image: /img/hairtattoo1.png
   - Image: /img/img_3431.png
-  - Image: /img/img_5839.png
+  - Image: /img/violett-rosa.jpg
 ---
 
