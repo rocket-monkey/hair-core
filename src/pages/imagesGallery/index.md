@@ -9,7 +9,7 @@ images:
   - Image: /img/img_5820.png
   - Image: /img/img_0915-kopie.png
   - Image: /img/cut-color1.png
-  - Image: /img/hairtattoo1.png
+  - Image: /img/freaks.jpg
   - Image: /img/img_3431.png
   - Image: /img/bunte-curls.jpg
 ---
