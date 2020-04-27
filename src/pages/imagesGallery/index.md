@@ -10,7 +10,7 @@ images:
   - Image: /img/img_0915-kopie.png
   - Image: /img/cut-color1.png
   - Image: /img/freaks.jpg
-  - Image: /img/img_3431.png
+  - Image: /img/3-long-hair.jpg
   - Image: /img/bunte-curls.jpg
 ---
 
