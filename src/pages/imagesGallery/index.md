@@ -10,7 +10,7 @@ images:
     label: Shop
   - Image: /img/3-long-hair.jpg
     label: 3 long Hairs
-  - Image: /img/normis.jpg
+  - Image: /img/doppel.jpg
     label: Flyer Spiegel
   - Image: /img/3-freaks.jpg
     label: 3 freaks
