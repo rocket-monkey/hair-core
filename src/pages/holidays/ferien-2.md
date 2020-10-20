@@ -1,7 +1,7 @@
 ---
 templateKey: holidays-entry
 title: Ferien 2
-from: Invalid date
-to: Invalid date
+from: 24.12.2020
+to: 04.01.2021
 ---
 
