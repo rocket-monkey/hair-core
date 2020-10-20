@@ -11,15 +11,13 @@ Nach der Lehre arbeite ich drei Jahre als Angestellte in einem grossen Betrieb m
 
 Mit 23 Jahren fing ich an selbstständig als Coiffeuse zu arbeiten. Von diesem Zeitpunkt an konnte ich mir endlich so viel Zeit nehmen wie ich wollte und es auch brauchte, um die Kunden, in all ihren Facetten wahrzunehmen um mit ihnen an ihren Haaren Fantasien zu arbeiten.Vor erst geschah dies in einem Kleiderladen namens Soho. Dies war ein alternativer Kleiderladen, wo man sich einkleiden und auch piercen lassen konnte. Da ich in der Nacht als DJ in Clubs unterwegs war, hatte ich sehr schnell viele Kunden, die mir ein grosses Vertrauen entgegenbrachten.
 
-Zwei Jahre später wollte ich meine Philosophie an der Schaffhauserstrasse in meinem eigenen kleinen Laden umsetzen.
+Zwei Jahre später konnte ich dann meine Philosophie an der Schaffhauserstrasse in meinem eigenen kleinen Laden auszuleben.
 
-Im 2017 habe ich angefangen, an einer schamanischen Ausbildung zu arbeiten. In diesen Seminaren lernte ich mich und andere Menschen noch besser und tiefer zu erkennen, was mich bei der Beratung zu Frisuren in meinem Job sehr unterstützte. Da ich Wert auf den Austausch und die Persönliche Weiterentwicklung lege, würde ich gerne auch dies zu meiner Berufung machen. Daher kann ein Haartermin auch mal zu einer Lebensveränderung führen ;) 
+Im 2017 fing ich eine schamanische Ausbildung an. In Seminaren und Aufstellungsarbeiten lernte ich mich und andere Menschen noch besser und tiefer zu erkennen, was mich auch bei der Beratung zu Frisuren auszeichnet. Da ich Wert auf den Austausch und die Persönliche Weiterentwicklung lege, würde ich gerne auch dies zu meiner Berufung machen. Daher kann ein Haartermin auch mal zu einer Lebensveränderung führen ;) 
 
 Ganz im Stil von (Finde deinen inneren Core)
 
 Eure Pascale
-
-
 
 ![](/img/haircore_sws_386023_0.jpg)
 
