@@ -3,19 +3,25 @@ templateKey: about-page
 title: Über mich
 image: /img/biographie-bearbeitet.png
 ---
-Seit über 16 Jahren arbeite ich als Coiffeuse. 10 Jahre davon unter Anderem in meinem eigenen Salon. Da ich vom klassischen Haarschnitt bis zu den ausgefallensten Färbetechniken gefragt bin, schätze ich meinen abwechslungsreichen Beruf als Coiffeuse sehr.
+Ich begann im Jahre 2001 mit der Lehre zur Coiffeuse. Bereits während meiner Ausbildung, hatte ich das Glück mich trotz der klassischen Ausrichtung des Salons, (Dieter Coiffeur) frei zu entwickeln und konnte viel ausprobieren.
 
-Bereits während der Ausbildung als Coiffeuse hatte ich die Möglichkeit, mich trotz der klassischen Ausrichtung des Salons, (Dieter Coiffeur) frei zu entwickeln.
+Nach der Lehre arbeitete ich drei Jahre in einem Gossbetrieb mit mehreren Salons. Dort habe ich gelernt trotz Hochbetrieb und einem Gefühl von Massenabfertigung in Ruhe an den Kunden zu arbeiten und effiziente Lösungen für Haar-Umfärbungen zu finden. 
 
-Nach der Lehre arbeite ich drei Jahre als Angestellte in einem grossen Betrieb mit mehreren Salons. Dort wurde auf Geschwindigkeit und Effizienz getrimmt, was mir zwar ein Gefühl von Massenabfertigung gab, aber sich das Potential entwickelte, trotz Hochbetrieb, in Ruhe an den Kunden zu arbeiten und effiziente Lösungen für Haar-Umfärbungen zu finden. Als Ausgleich in der Freizeit machte ich diverse Haarschnitt- und Haarfarbtechnik Kurse und interessierte mich sehr für Haarkunst mit kunsthaar Extensions und semi-permanenten Dreadlocks. Ich liebte es meine inneren Prozesse und Gefühle, stilvoll und kreativ in Outfits und extravaganten Haarfrisuren zu verarbeiten und auszudrücken. 
+Zu dieser Zeit besuchte ich auch diverse Haarschnitt- und Haarfarbtechnikkurse und interessierte mich sehr für Haarkunst mit Kunsthaar Extensions und semi-permanenten Dreadlocks. Es gefiel mir innere Prozesse und Gefühle durch kreative Outfits und extravagante Haarfrisuren zu verarbeiten und auszudrücken.
 
-Mit 23 Jahren fing ich an selbstständig als Coiffeuse zu arbeiten. Von diesem Zeitpunkt an konnte ich mir endlich so viel Zeit nehmen wie ich wollte und es auch brauchte, um die Kunden, in all ihren Facetten wahrzunehmen um mit ihnen an ihren Haaren Fantasien zu arbeiten.Vor erst geschah dies in einem Kleiderladen namens Soho. Dies war ein alternativer Kleiderladen, wo man sich einkleiden und auch piercen lassen konnte. Da ich in der Nacht als DJ in Clubs unterwegs war, hatte ich sehr schnell viele Kunden, die mir ein grosses Vertrauen entgegenbrachten.
+Vorerst geschah dies mit 23 Jahren noch in einem alternativen Kleidergeschäft namens Soho. Nebenbei hatte ich Auftritte als DJ in Klubs, so baute sich sehr schnell ein Kundenstamm auf.
 
-Zwei Jahre später konnte ich dann meine Philosophie an der Schaffhauserstrasse in meinem eigenen kleinen Laden auszuleben.
+Von diesem Zeitpunkt an konnte ich mir endlich so viel Zeit nehmen wie ich wollte und es auch brauchte, um die Kunden, in all ihren Facetten wahrzunehmen um mit ihnen an ihren Haaren Fantasien zu arbeiten.
 
-Im 2017 fing ich eine schamanische Ausbildung an. In Seminaren und Aufstellungsarbeiten lernte ich mich und andere Menschen noch besser und tiefer zu erkennen, was mich auch bei der Beratung zu Frisuren auszeichnet. Da ich Wert auf den Austausch und die Persönliche Weiterentwicklung lege, würde ich gerne auch dies zu meiner Berufung machen. Daher kann ein Haartermin auch mal zu einer Lebensveränderung führen ;) 
+Zwei Jahre später konnte ich meine Philosophie des Arbeitens in meinem eigenen kleinen Salon an der Schaffhauserstrasse umsetzen.
+
+Im 2017 habe ich mit einer schamanischen Ausbildung begonnen. In Aufstellungsarbeiten und shamanischen Seminaren lernte ich mich und andere Menschen noch besser und tiefer zu erkennen, was mich bei der Beratung zu Frisuren in meinem Job sehr unterstützte. Ich lege Wert auf den Austausch und die Persönliche Entwicklung und würde dies gerne zu meiner Berufung machen. Daher kann ein Haartermin auch mal zu einer Lebensveränderung führen ;) 
 
 Ganz im Stil von (Finde deinen inneren Core)
+
+Eure Pascale
+
+
 
 Eure Pascale
 
