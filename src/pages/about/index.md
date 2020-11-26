@@ -15,15 +15,13 @@ Von diesem Zeitpunkt an konnte ich mir endlich so viel Zeit nehmen wie ich wollt
 
 Zwei Jahre später konnte ich meine Philosophie des Arbeitens in meinem eigenen kleinen Salon an der Schaffhauserstrasse umsetzen.
 
-Im 2017 habe ich mit einer schamanischen Ausbildung begonnen. In Aufstellungsarbeiten und shamanischen Seminaren lernte ich mich und andere Menschen noch besser und tiefer zu erkennen, was mich bei der Beratung zu Frisuren in meinem Job sehr unterstützte. Ich lege Wert auf den Austausch und die Persönliche Entwicklung und würde dies gerne zu meiner Berufung machen. Daher kann ein Haartermin auch mal zu einer Lebensveränderung führen ;) 
+Im 2017 habe ich mit einer schamanischen Ausbildung begonnen. In Aufstellungsarbeiten und shamanischen Seminaren lernte ich mich und andere Menschen noch besser und tiefer zu erkennen, was mich bei der Beratung zu Frisuren in meinem Job sehr unterstützt. Ich lege Wert auf den Austausch und die Persönliche Entwicklung und würde dies gerne zu meiner Berufung machen. Daher kann ein Haartermin auch mal zu einer Lebensveränderung führen ;) 
 
 Ganz im Stil von (Finde deinen inneren Core)
 
 Eure Pascale
 
 
-
-Eure Pascale
 
 ![](/img/haircore_sws_386023_0.jpg)
 
