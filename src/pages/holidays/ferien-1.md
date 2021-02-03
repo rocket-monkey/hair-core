@@ -1,7 +1,7 @@
 ---
 templateKey: holidays-entry
 title: Ferien 1
-from: 18.11.2020
-to: 23.11.2020
+from: 03.02.2021
+to: 08.02.2021
 ---
 
