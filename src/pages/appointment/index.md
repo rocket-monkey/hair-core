@@ -3,15 +3,19 @@ templateKey: appointment-page
 title: Termine
 image: ''
 ---
-Bei einem Besuch in meinem Laden kann ich nebst dem Termin-Vereinbaren auch den jeweiligen Arbeitsaufwand am besten einschätzen, da ich vor Ort deinen Haarzustand btrachten kann. Per Telefon kann man natürlich auch gerne einen Termin mit mir abmachen. Allerdings ist es nicht immer möglich von der momentanen Arbeit ab zu lassen um an das Telefon zu gehen (z.B. beim Farbe auftragen) In diesem Fall kann auf Wunsch gerne zurückgerufen werden. Bei einer schriftlichen Terminierung sollte darauf geachtet werden, möglichst genau zu beschreiben wie lange das Haar ist, in welchem Zustand die Haare sind und mit welchen Farbbehandlungen das Haar in letzter Zeit in Kontakt war. Natürlich auch den Wunsch der neuen Farbe und Frisur, gerne auch mit Bilder. Wenn man noch ein paar Terminvorschläge angibt, steht einer schriftlichen Terminierung über SMS, oder Whats App nichts mehr im Weg. Es ist auch eine Kontaktaufnahme per Instagram oder dem Massanger von Facebook möglich, ebenfalls bei einer möglichst genauen Beschreibung deiner Haarwünsche und dem Ist-Zustand deiner Haare. Anfragen die den genannten Angaben nicht entsprechen, kann ich leider nicht berüksichtigen.
+NEU kann unter folgendem Link einen Termin online gebucht werden.
+
+[ https://my.calenso.com/book/haircore](< https://my.calenso.com/book/haircore>)
 
 
 
-NEU! 
+Bei einem Besuch in meinem Laden kann ich nebst dem Termin-Vereinbaren auch den jeweiligen Arbeitsaufwand am besten einschätzen, da ich vor Ort deinen Haarzustand betrachten kann. Per Telefon kann man natürlich auch gerne einen Termin mit mir abmachen. Allerdings ist es nicht immer möglich von der momentanen Arbeit ab zu lassen um an das Telefon zu gehen (z.B. beim Farbe auftragen) In diesem Fall kann auf Wunsch gerne zurückgerufen werden.Bei einer schriftlichen Terminierung sollte darauf geachtet werden, möglichst genau zu beschreiben wie lange das Haar ist, in welchem Zustand die Haare sind und mit welchen Farbbehandlungen das Haar in letzter Zeit in Kontakt war. Natürlich auch den Wunsch der neuen Farbe und Frisur, gerne auch mit Bilder. Wenn man noch ein paar Terminvorschläge angibt, steht einer schriftlichen Terminierung über SMS, oder Whats App nichts mehr im Weg. Es ist auch eine Kontaktaufnahme per Instagram oder dem Massanger von Facebook möglich, ebenfalls bei einer möglichst genauen Beschreibung deiner Haarwünsche und dem Ist-Zustand deiner Haare. Anfragen die den genannten Angaben nicht entsprechen, kann ich leider nicht berüksichtigen.
 
-Buche deinen Termin online.
 
-<iframe src="https://widget.calenso.com/?partner=haircore&type=appointment&isFrame=true&lang=de_CH" frameborder="0" style="height: 700px; width: 100%; max-width: 840px;" scrolling="yes"></iframe> 
+
+
+
+
 
 
 
