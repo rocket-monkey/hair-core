@@ -87,6 +87,10 @@ Dreadlock Einfarbig: 10.00/Stk.
 
 Dreadlock Spezial: 12.00/Stk.
 
+Motage klassisch: 5.00/Stk.
+
+Motage spetzial ab: 7.00/Stk
+
 Ganzer Kopf ab 800.00, dauert etwa 8h
 Je nach Zeitaufwand.
 
