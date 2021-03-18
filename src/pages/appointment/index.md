@@ -5,7 +5,7 @@ image: ''
 ---
 NEU kann unter folgendem Link einen Termin online gebucht werden.
 
-https://my.calenso.com/book/haircore
+
 
 <https://my.calenso.com/book/haircore>
 
