@@ -1,7 +1,7 @@
 ---
 templateKey: info-page
 title: Corona News
-active: true
+active: false
 ---
 Um die hygienischen Massnahmen gemäss BAG einzuhalten, ist ein Besuch in meinem Salon nur mit einem telefonisch vereinbarten Termin möglich.
 
