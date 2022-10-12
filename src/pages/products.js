@@ -2,7 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import styles from './products.module.scss'
+import {
+  table,
+  row,
+  leftCell,
+  rightCell,
+  title,
+  para,
+} from './products.module.scss'
 
 export default class ProductsPage extends React.Component {
   render() {
@@ -16,7 +23,7 @@ export default class ProductsPage extends React.Component {
             <div className="column is-10 is-offset-1">
               <h1>Produkte</h1>
 
-              <div className={styles.table}>
+              <div className={table}>
                 {posts.map(({ node: post }) => {
                   if (!post) {
                     return null
@@ -32,16 +39,14 @@ export default class ProductsPage extends React.Component {
                     )
                   }
                   return (
-                    <div className={styles.row}>
-                      <div className={styles.leftCell}>
+                    <div className={row}>
+                      <div className={leftCell}>
                         {firstImg && <Img {...firstImg.childImageSharp} />}
                       </div>
-                      <div className={styles.rightCell}>
-                        <h3 className={styles.title}>
-                          {post.frontmatter.title}
-                        </h3>
+                      <div className={rightCell}>
+                        <h3 className={title}>{post.frontmatter.title}</h3>
                         <p
-                          className={styles.para}
+                          className={para}
                           dangerouslySetInnerHTML={{ __html: productHtml }}
                         />
                       </div>

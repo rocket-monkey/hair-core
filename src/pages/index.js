@@ -5,8 +5,8 @@ import { graphql } from 'gatsby'
 import { OpeningHours } from '../components/OpeningHours'
 import { Holidays } from '../components/Holidays'
 import { Testimonials } from '../components/Testimonials'
-import classNames from 'class-names'
-import styles from '../templates/home-page.module.scss'
+import classNames from 'classnames'
+import { wrapper } from '../templates/home-page.module.scss'
 import { Gallery } from '../components/Gallery'
 import { InfoText } from '../components/InfoText'
 
@@ -39,12 +39,7 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container content">
             <div className="columns">
-              <div
-                className={classNames(
-                  'column is-10 is-offset-1',
-                  styles.wrapper
-                )}
-              >
+              <div className={classNames('column is-10 is-offset-1', wrapper)}>
                 <InfoText info={info} />
                 <Gallery images={images} />
                 <div dangerouslySetInnerHTML={{ __html: data.home.html }} />

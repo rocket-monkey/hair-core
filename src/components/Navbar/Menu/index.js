@@ -1,8 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import classNames from 'class-names'
+import classNames from 'classnames'
 import BodyClassName from 'react-body-classname'
-import styles from './styles.module.scss'
+import {
+  nav,
+  content,
+  list,
+  item,
+  active,
+  navActive,
+} from './styles.module.scss'
 
 const Menu = class extends React.Component {
   render() {
@@ -10,15 +17,15 @@ const Menu = class extends React.Component {
       <>
         <BodyClassName
           className={classNames({
-            [styles.navActive]: this.props.active,
+            [navActive]: this.props.active,
           })}
         >
-          <div className={styles.nav} onClick={this.handleClick}>
-            <div className={styles.content}>
-              <ul className={styles.list}>
+          <div className={nav} onClick={this.handleClick}>
+            <div className={content}>
+              <ul className={list}>
                 <li
-                  className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/'),
+                  className={classNames(item, {
+                    [active]: this.isActive('/'),
                   })}
                 >
                   <Link
@@ -30,8 +37,8 @@ const Menu = class extends React.Component {
                   </Link>
                 </li>
                 <li
-                  className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/products'),
+                  className={classNames(item, {
+                    [active]: this.isActive('/products'),
                   })}
                 >
                   <Link
@@ -43,8 +50,8 @@ const Menu = class extends React.Component {
                   </Link>
                 </li>
                 <li
-                  className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/prices'),
+                  className={classNames(item, {
+                    [active]: this.isActive('/prices'),
                   })}
                 >
                   <Link
@@ -56,8 +63,8 @@ const Menu = class extends React.Component {
                   </Link>
                 </li>
                 <li
-                  className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/appointment'),
+                  className={classNames(item, {
+                    [active]: this.isActive('/appointment'),
                   })}
                 >
                   <Link
@@ -69,8 +76,8 @@ const Menu = class extends React.Component {
                   </Link>
                 </li>
                 <li
-                  className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/about'),
+                  className={classNames(item, {
+                    [active]: this.isActive('/about'),
                   })}
                 >
                   <Link

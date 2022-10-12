@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import classNames from 'class-names'
-import styles from './home-page.module.scss'
+import classNames from 'classnames'
+import { wrapper } from './home-page.module.scss'
 import Content, { HTMLContent } from '../components/Content'
 
 export const HomePageTemplate = ({ title, content, contentComponent }) => {
@@ -12,9 +12,7 @@ export const HomePageTemplate = ({ title, content, contentComponent }) => {
     <section className="section">
       <div className="container">
         <div className="columns">
-          <div
-            className={classNames('column is-10 is-offset-1', styles.wrapper)}
-          >
+          <div className={classNames('column is-10 is-offset-1', wrapper)}>
             <h1>{title}</h1>
             <PageContent className="content" content={content} />
           </div>

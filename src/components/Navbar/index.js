@@ -1,5 +1,5 @@
 import React from 'react'
-import classNames from 'class-names'
+import classNames from 'classnames'
 import { Logo } from '../../components/Logo'
 import Menu from './Menu'
 

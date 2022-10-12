@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles.module.scss'
+import { myHolidays } from './styles.module.scss'
 import moment from 'moment'
 
 export const Holidays = ({ holidays }) => {
@@ -25,7 +25,7 @@ export const Holidays = ({ holidays }) => {
 
   if (currentHoliday) {
     return (
-      <div className={styles.holidays}>
+      <div className={myHolidays}>
         <h3>🚨 Im Urlaub!</h3>
         ...noch bis <strong>{currentHoliday.node.frontmatter.to}</strong>
       </div>
@@ -33,7 +33,7 @@ export const Holidays = ({ holidays }) => {
   }
 
   return (
-    <div className={styles.holidays}>
+    <div className={myHolidays}>
       <h3>🌴 Zukünftige Ferien</h3>
       {futureHolidays.map((h, idx) => {
         const { from, to } = h.node.frontmatter

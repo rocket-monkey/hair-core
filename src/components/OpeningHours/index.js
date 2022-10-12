@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './styles.module.scss'
+import { hoursEntry } from './styles.module.scss'
 
 const Entry = ({ title, hours }) => {
   return (
-    <div className={styles.hoursEntry}>
+    <div className={hoursEntry}>
       <span>{title}</span>
       <strong>{hours}</strong>
     </div>

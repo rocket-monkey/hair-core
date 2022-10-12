@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import styles from './styles.module.scss'
+import { wrapper, container, logo, slogan } from './styles.module.scss'
 
 export const Logo = ({ image }) => {
   if (!image) {
@@ -9,13 +9,13 @@ export const Logo = ({ image }) => {
   }
 
   return (
-    <section className={styles.wrapper}>
+    <section className={wrapper}>
       <div className="container content">
-        <div className={styles.container}>
-          <Link to="/" className={styles.logo}>
+        <div className={container}>
+          <Link to="/" className={logo}>
             <Img fluid={image.childImageSharp.fluid} />
           </Link>
-          <div className={styles.slogan}>
+          <div className={slogan}>
             <strong>Finde dein inneres Core.</strong> Mit Pascale Professional
             Hairdresser
           </div>

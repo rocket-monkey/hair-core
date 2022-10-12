@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import classNames from 'class-names'
-import styles from './prices-page.module.scss'
+import classNames from 'classnames'
+import { wrapper } from './prices-page.module.scss'
 import Content, { HTMLContent } from '../components/Content'
 import HorizontalLine from '../components/HorizontalLine'
 
@@ -19,9 +19,7 @@ export const PricesPageTemplate = ({
     <section className="section">
       <div className="container">
         <div className="columns">
-          <div
-            className={classNames('column is-10 is-offset-1', styles.wrapper)}
-          >
+          <div className={classNames('column is-10 is-offset-1', wrapper)}>
             <h1>{title}</h1>
             {hero && !!hero.fluid ? (
               <Img {...hero} />

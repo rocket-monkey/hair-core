@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles.module.scss'
+import { wrapper } from './styles.module.scss'
 
 export const InfoText = ({ info }) => {
   if (!info || !info.frontmatter.active) {
@@ -7,7 +7,7 @@ export const InfoText = ({ info }) => {
   }
 
   return (
-    <div className={styles.wrapper}>
+    <div className={wrapper}>
       <h3>{info.frontmatter.title}</h3>
       <div dangerouslySetInnerHTML={{ __html: info.html }} />
     </div>
