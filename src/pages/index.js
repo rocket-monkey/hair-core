@@ -25,7 +25,7 @@ export default class IndexPage extends React.Component {
       <>
         <Helmet>
           <meta charSet="utf-8" />
-          <meta property="og:title" content="JUR Records" />
+          <meta property="og:title" content="Haircore" />
           <meta
             property="og:description"
             content="Haircore - Finde dein inneres Core. Mit Pascale Professional Hairdresser"
