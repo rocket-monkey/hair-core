@@ -1,7 +1,7 @@
 ---
 templateKey: prices-page
 title: Preise
-image: ''
+image: ""
 ---
 - - -
 
@@ -25,15 +25,15 @@ Hairtattoo ohne Farbe 20.00-70.00
 
 Ansatz Naturfarben 80.00-100.00
 
-Neufarbe 120.00-170.00
+Neufarbe 130.00-180.00
 
-Blondieren 90.00-160.00
+Blondieren 140.00-200.00
 
-Ansatz Buntfärbung 230.00-260.00
+Ansatz Buntfärbung 250.00-300.00
 
-Neubuntfärbung 270.00-310.00
+Neubuntfärbung 280.00-380.00
 
-Farbeffekte/ Mèches / Balayage ab 120.00-200.00
+Farbeffekte/ Mèches / Balayage ab 140.00-250.00
 
 Bunte Farbeffekte /Mèches / Balayage 230.00-310.00
 
@@ -47,11 +47,11 @@ Augenbrauen färben 20.00
 
 Wimpern färben 20.00
 
-_Es gibt verschiedene Arten die Haare bunt zu färben, daher können auch die Preise stark variieren.
-Je nach Intensität der Haarfarbveränderung, gerade bei Buntfärbungen, ist dies nur mit mehreren Arbeitsschritten (Bleichung, Vorpigmentierung, Färbung ect.)  zu erreichen. Zusätzlich habe ich verschiedene Produkte um individuell auf jeden Haartyp einzugehen und diesen auch zu pflegen. Was schlussendlich auch für einen besseren Halt der Farbe sorgt. Daher ist eine zeitliche und finanzielle Spontanität von Vorteil._
+*Es gibt verschiedene Arten die Haare bunt zu färben, daher können auch die Preise stark variieren.
+Je nach Intensität der Haarfarbveränderung, gerade bei Buntfärbungen, ist dies nur mit mehreren Arbeitsschritten (Bleichung, Vorpigmentierung, Färbung ect.)  zu erreichen. Zusätzlich habe ich verschiedene Produkte um individuell auf jeden Haartyp einzugehen und diesen auch zu pflegen. Was schlussendlich auch für einen besseren Halt der Farbe sorgt. Daher ist eine zeitliche und finanzielle Spontanität von Vorteil.*
 
-_Um ein Auswaschen zu verhindern, sollten die bunten Haare mit Farbe nachgepflegt werden.
-Für die Pflege der Farben empfehle ich Directions welche bei mir erhältlich sind._
+*Um ein Auswaschen zu verhindern, sollten die bunten Haare mit Farbe nachgepflegt werden.
+Für die Pflege der Farben empfehle ich Directions welche bei mir erhältlich sind.*
 
 - - -
 
@@ -94,8 +94,8 @@ Montage spetzial ab: 7.00/Stk
 Ganzer Kopf ab 800.00, dauert etwa 8h
 Je nach Zeitaufwand.
 
- _Die Dreadlocks sind wiederverwendbar_
+ *Die Dreadlocks sind wiederverwendbar*
 
-_Alle Preise sind ohne Gewähr und in CHF._ 
+*Alle Preise sind ohne Gewähr und in CHF.* 
 
-_Bei mir ist_ **keine Kartenzahlung** _möglich. Es gibt mehrere Automaten in unmittelbarer Nähe._
+*Bei mir ist* **keine Kartenzahlung** *möglich. Es gibt mehrere Automaten in unmittelbarer Nähe.*
