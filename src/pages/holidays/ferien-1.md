@@ -1,6 +1,6 @@
 ---
 templateKey: holidays-entry
 title: Ferien 1
-from: 20.04.2023
-to: 26.04.2023
+from: 29.06.2023
+to: 01.07.2023
 ---
