@@ -1,6 +1,6 @@
 ---
 templateKey: holidays-entry
 title: Ferien 1
-from: 25.04.2024
-to: 01.05.2024
+from: 26.08.2024
+to: 09.09.2024
 ---
