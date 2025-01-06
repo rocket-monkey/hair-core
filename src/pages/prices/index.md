@@ -7,11 +7,9 @@ image: ""
 
 **Schneiden**
 
-Damen Haarschnitt mit styling 80.00-100.00
+Haarschnitt mit styling 65.00-100.00
 
-Herren Haarschnitte mit styling 60.00-80.00
-
-Fransen/ Nacken ab 15.00
+Fransen/ Nacken ab 17.00
 
 Side-& Undercut 20.00
 
@@ -85,7 +83,7 @@ Kunsthaarentfernung mit waschen und pflegen: 60.00/h, dauert ca. 1-2h
 
 Dreadlock Einfarbig: 10.00/Stk.
 
-Dreadlock Spezial: 12.00/Stk.
+Dreadlock Spezial: 15.00/Stk.
 
 Montage klassisch: 5.00/Stk.
 
