@@ -21,19 +21,19 @@ Hairtattoo ohne Farbe 20.00-70.00
 
 **Färben**  
 
-Ansatz Naturfarben 80.00-100.00
+Ansatz Naturfarben 90.00-120.00
 
-Neufarbe 130.00-180.00
+Neufarbe 150.00-215.00
 
-Blondieren 140.00-200.00
+Blondieren 160.00-220.00
 
 Ansatz Buntfärbung 250.00-300.00
 
-Neubuntfärbung 280.00-380.00
+Neubuntfärbung 300.00-450.00
 
 Farbeffekte/ Mèches / Balayage ab 140.00-250.00
 
-Bunte Farbeffekte /Mèches / Balayage 230.00-310.00
+Bunte Farbeffekte /Mèches / Balayage 300.00-510.00
 
 Zuschlag Spezialfarbe ab 10.00-20.00
 
@@ -63,9 +63,9 @@ Je nach Zeitaufwand 60.00/h
 
 1 - 9 Strähnen: 8.00/Stk.
 
-10 Strähnen: 70.00
+10 Strähnen: 80.00
 
-30 Strähnen: 150.00
+30 Strähnen: 170.00
 
 Haarverdichtung ab 300.00, dauert bis zu 5h
 
@@ -83,11 +83,11 @@ Kunsthaarentfernung mit waschen und pflegen: 60.00/h, dauert ca. 1-2h
 
 Dreadlock Einfarbig: 10.00/Stk.
 
-Dreadlock Spezial: 15.00/Stk.
+Dreadlock Spezial: 17.00/Stk.
 
-Montage klassisch: 5.00/Stk.
+Montage klassisch: 6.00Stk.
 
-Montage spetzial ab: 7.00/Stk
+Montage spetzial ab: 8.00/Stk
 
 Ganzer Kopf ab 800.00, dauert etwa 8h
 Je nach Zeitaufwand.
