@@ -1,6 +1,6 @@
 ---
 templateKey: holidays-entry
 title: Ferien 2
-from: 04.08.2025
-to: 31.08.2025
+from: 09.08.2026
+to: 26.08.2025
 ---
