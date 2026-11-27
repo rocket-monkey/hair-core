@@ -1,6 +1,6 @@
 ---
 templateKey: holidays-entry
 title: Ferien 1
-from: 25.06.2026
-to: 02.07.2026
+from: 19.12.2026
+to: 04.01.2027
 ---
